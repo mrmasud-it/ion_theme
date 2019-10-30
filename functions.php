@@ -11,16 +11,16 @@ require_once get_template_directory().'/inc/class-wp-bootstrap-navwalker.php';
 // short code & visual composer
 if ( file_exists(get_template_directory().'/inc/vc-element.php') ){
 	require_once get_template_directory().'/inc/vc-element.php';
-};
+}
 
 if ( file_exists(get_template_directory().'/inc/vc-output.php') ){
 	require_once get_template_directory().'/inc/vc-output.php';
-};
+}
 
 // for all widgets
 if ( file_exists(get_template_directory().'/inc/widgets-elements.php') ){
 	require_once get_template_directory().'/inc/widgets-elements.php';
-};
+}
 
 // load tgm
 require_once get_template_directory() . '/inc/tgm.php';
